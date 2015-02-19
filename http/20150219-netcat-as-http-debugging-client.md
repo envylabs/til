@@ -28,7 +28,7 @@ Content-Length: 19
 
 And, then you'll see a response like:
 
-```bash
+```http
 HTTP/1.1 200 OK
 Connection: keep-alive
 Content-Type: text/html; charset=utf-8
