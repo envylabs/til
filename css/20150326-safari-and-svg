@@ -1,0 +1,5 @@
+# Safari 8.0.4 and SVG backgrounds
+
+Was debugging a form for Tech Rocket in Safari 8.0.4, and on a particular page, form entry just crawled. Input was lagging by a half-second or more. Removing the styles one-by-one, I had trouble pinpointing the exact CSS that Safari didn’t like.
+
+Even still, I’m still not 100% sure of all the causes, but removing the SVG pattern background (mocksy.com) seemed to fix the issue just fine. The SVG was very large (not in filesize but in dimensions), so likely some part of Safari’s downsizing of the image caused it to choke. Hopefully they’ll fix the issue in the future.
