@@ -1,4 +1,4 @@
-The following properties are now fully supported by Safari 9.0, without the -webkit- prefix.
+The following properties are now fully supported by Safari 9.0, without the **`-webkit-`** prefix.
 
 + `transition`
 + `transition-delay`
